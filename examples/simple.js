@@ -3,12 +3,12 @@ webpackJsonp([3],{
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(190);
+	module.exports = __webpack_require__(197);
 
 
 /***/ },
 
-/***/ 190:
+/***/ 197:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -19,13 +19,17 @@ webpackJsonp([3],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _rcTooltip = __webpack_require__(158);
+	var _reactDom = __webpack_require__(158);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _rcTooltip = __webpack_require__(159);
 	
 	var _rcTooltip2 = _interopRequireDefault(_rcTooltip);
 	
-	__webpack_require__(187);
+	__webpack_require__(194);
 	
-	var _objectAssign = __webpack_require__(191);
+	var _objectAssign = __webpack_require__(198);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
@@ -185,7 +189,7 @@ webpackJsonp([3],{
 	  }
 	});
 	
-	_react2['default'].render(_react2['default'].createElement(
+	_reactDom2['default'].render(_react2['default'].createElement(
 	  'div',
 	  null,
 	  _react2['default'].createElement(Test, null)
@@ -193,7 +197,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 191:
+/***/ 198:
 /***/ function(module, exports) {
 
 	'use strict';

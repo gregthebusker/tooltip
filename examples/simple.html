@@ -250,6 +250,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     <pre><code><span class="xml">'use strict';
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Tooltip from 'rc-tooltip';
 import 'rc-tooltip/assets/bootstrap.css';
 import assign from 'object-assign';
@@ -352,7 +353,7 @@ var Test = React.createClass({
   }
 });
 
-React.render(<span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+ReactDOM.render(<span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">Test</span> /&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>, document.getElementById("__react-content"));
 </span></code></pre>
